@@ -1,0 +1,2 @@
+#load "str.cma";;
+#use "day4.ml";;
