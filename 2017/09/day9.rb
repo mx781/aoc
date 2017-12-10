@@ -1,5 +1,4 @@
 # test inputs
-
 input1 = "{}"
 input2 = "{{{}}}"
 input3 = "{{},{}}"
@@ -10,9 +9,7 @@ input7 = "{{<!!>},{<!!>},{<!!>},{<!!>}}"
 input8 = "{{<a!>},{<a!>},{<a!>},{<ab>}}"
 input9 = "{{!}!!}!!}"
 
-# part 1 input
 f = File.read("input.txt")
-# puts f
 
 def parse(str)
   chars = str.chars()
